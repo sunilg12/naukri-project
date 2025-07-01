@@ -1,32 +1,27 @@
-package com.naukri.central_api.model;
+package com.naukri.central_api.dto;
 
 import lombok.*;
-
-import java.time.LocalDateTime;
-import java.util.UUID;
 
 @Getter
 @Setter
 @AllArgsConstructor
 @NoArgsConstructor
 @ToString
-public class Company {
-
-    UUID id;
+public class CompanyRegistrationDto {
 
     String companyName;
 
     String email;
 
+    String password;
+
     String websiteLink;
 
     String linkedinLink;
 
+    Long phoneNumber;
+
     int companySize;
 
     String industry;
-
-    LocalDateTime createdAt;
-
-    LocalDateTime updatedAt;
 }

@@ -21,6 +21,8 @@ public class AppUser {
 
     String password;
 
+    String status;
+
     Long phoneNumber;
 
     String userType;
